@@ -1,38 +1,3 @@
-// class Apple {
-//   constructor(
-//     age = 0,
-//     color = "green",
-//     size = "medium",
-//     isRotten = false,
-//     hasFallen = false
-//   ) {
-//     this.age = age;
-//     this.color = color;
-//     this.size = size;
-//     this.isRotten = isRotten;
-//     this.hasFallen = hasFallen;
-//   }
-
-//   ageOneDay() {
-//     this.age += 1;
-//     if (this.age >= 30) {
-//       this.fallFromTree();
-//     }
-//   }
-
-//   fallFromTree() {
-//     this.hasFallen = true;
-//   }
-
-//   rot() {
-//     if (this.hasFallen) {
-//       this.isRotten = true;
-//     }
-//   }
-// }
-
-// module.exports = Apple;
-
 // При разработке принято что, все яблоки по умолчанию сначала зеленые, затем красные
 // Так же все яблоки по умолчанию сначала маленькие, затем средние, а потом выростают в большие
 
@@ -73,36 +38,3 @@ class Apple {
 }
 
 module.exports = Apple;
-
-// const myApple = new Apple((age = 9));
-
-// console.log(
-//   `Возраст: ${myApple.age}, Цвет: ${myApple.color}, Размер: ${myApple.size}`
-// );
-
-// myApple.ageOneDay();
-// myApple.ageOneDay();
-
-// console.log(
-//   `Возраст: ${myApple.age}, Цвет: ${myApple.color}, Размер: ${myApple.size}`
-// );
-
-// myApple.ageOneDay();
-// myApple.ageOneDay();
-// myApple.ageOneDay();
-// myApple.ageOneDay();
-// myApple.ageOneDay();
-
-// console.log(
-//   `Возраст: ${myApple.age}, Цвет: ${myApple.color}, Размер: ${myApple.size}`
-// );
-
-// myApple.ageOneDay();
-// myApple.ageOneDay();
-// myApple.ageOneDay();
-// myApple.ageOneDay();
-// myApple.ageOneDay();
-
-// console.log(
-//   `Возраст: ${myApple.age}, Цвет: ${myApple.color}, Размер: ${myApple.size}`
-// );
